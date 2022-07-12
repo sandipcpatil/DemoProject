@@ -7,7 +7,6 @@ from validations import get_curr_date, df_count, df_top10_record, df_print_schem
 import logging
 import logging.config
 import presc_run_data_inject
-import datetime
 from presc_run_data_preprocessing import perform_data_cleanup
 from presc_run_data_transform import city_report, prescribe_report
 
